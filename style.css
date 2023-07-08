@@ -9,6 +9,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
 .text-primary {
   color: #fd6e0a;
 }
@@ -64,6 +70,9 @@ nav ul li {
   margin: 0 20px;
   font-size: 20px;
   font-weight: 400;
+}
+nav ul li a {
+  color: #474747;
 }
 
 .hero-content {
